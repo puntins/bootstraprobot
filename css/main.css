@@ -1,0 +1,57 @@
+header svg {
+    width: 20rem;
+    height: 20rem;
+    padding-top: 0;
+  }
+
+  .robohead {
+    height: 40rem;
+    border: 2px solid orange;
+  }
+
+  .topNav, .content {
+    height: 40rem;
+  }
+
+.magazineEmpty {
+  width: 100vw;
+  height: 16rem;
+  border-top: 2rem solid #fff;
+  border-bottom: 2rem solid #fff;
+  /*height: 100%;*/
+  background-image: url("../img/electronic_header.jpg");
+  background-size: cover;
+  /*padding-top: .5rem;
+  padding-bottom: .5rem;
+  top: 0;*/
+  z-index: -1;
+}
+
+.magazine h1 {
+  /*font-size: 4vmax;*/
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0em #013358;
+  font-family: 'Press Start 2P', cursive;
+  /*text-align: center;*/
+}
+
+/*.container {
+  position: fixed;
+}*/
+
+.svgLogo {
+  /*height: 22rem;*/
+  text-align: center;
+  background: #2fbbdd;
+  border: 2px solid orange;
+}
+
+.magazine, .magazineEmpty {
+  border: 2px solid orange;
+  background-size: cover;
+}
+
+article {
+  width: 50%;
+  margin: auto;
+}
