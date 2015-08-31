@@ -21,6 +21,8 @@ header svg {
   text-shadow: 0.1em 0.1em 0em #013358;
   font-family: 'Press Start 2P', cursive;
   font-size: 5vmax;
+  white-space: nowrap;
+  margin-top: 6rem;
   /*margin-left: -4rem;
   margin-top: 4rem;*/
   /*border: 2px solid orange;*/
@@ -30,36 +32,134 @@ header svg {
   width: 22rem;
   text-align: center;
   background: rgba(47, 187, 221, 0.75);
-  /*border: 2px solid orange;*/
   border-radius: 1rem;
-  margin-top: -1rem;
+  margin-top: -1.5rem;
+  margin-left: 1.5rem;
+}
+
+/*.topNav {
+  width: 22rem;
+}*/
+
+.roboNav {
+  margin-top: 3rem;
 }
 
 .topNav {
-  width: 22rem;
+  margin-top: 50.2rem;
+  /*margin-left: -60px;*/
+  left: 0;
+}
+
+nav .carousel-indicators {
+
+}
+
+nav .b1 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b2 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b3 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b4 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b5 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b6 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b7 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b8 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b9 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .b10 {
+  background: #063c63;
+  color: #fff;
+}
+
+nav .carousel-indicators li {
+  display: inline-block;
+  width: 28rem;
+  height: 4.5rem;
+  margin-left: -4rem;
+  /*background: #013358;*/
+  text-indent: 0;
+}
+
+nav .carousel-indicators li .caption {
+  font-size: 2.5rem;
+  /*font-weight: bold;*/
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 .carousel .item {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/electronic_header.jpg");
+  border-radius: 2rem;
+  height: 48rem;
+  padding-top: 2rem;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
 }
 
 article {
   display: block;
-  width: 50%;
-  margin: auto;
+  width: 70%;
+  height: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #afafaf;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #fff;
 }
 
 footer {
   display: block;
   position: fixed;
+  width: 100vw;
+  height: 4rem;
   text-align: center;
   background: #2fbbdd;
   bottom: 0;
 }
 
-.robohead .col-md-12 {
+/*.robohead .col-md-12 {
   border: 2px solid orange;
 }
 
@@ -69,4 +169,4 @@ footer {
 
 .robohead .col-md-9 {
   border: 2px solid orange;
-}
+}*/
